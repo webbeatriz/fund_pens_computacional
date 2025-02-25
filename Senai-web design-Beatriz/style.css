@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* vamos criar nosso primeiro css */
+
+*{
+ margin: 0;
+ /* espaçamento externo do elemento */
+ padding: 0;
+ /* espaçamento interno do elemento */
+ box-sizing: border-box;
+ /* largura e comprimento da página */
+ font-family: 'Times New Roman', Times, serif;
+ /* conjunto de fontes */
+}
+
+body{
+    background-color: #92a2aa;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 26, 18);
+    font-size: 30px;
+    text-align: center;
+}
+    
+p{
+    font-size: 16px;
+    color: rgb(12, 28, 41);
+    margin: 7px;
+}
+
+#sasa{
+    background-color: rgb(181, 192, 201);
+    font-size: larger;
+    margin-right: 14px;
+    color: rgb(10, 29, 110);
+
+}
+
+#beea{
+    background-color: rgb(188, 200, 202);
+    
+}

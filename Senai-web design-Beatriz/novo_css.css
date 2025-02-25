@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* background-image: linear-gradient(to right top, #fbfeff, #c3d9e4, #90b3cc, #628db5, #3b679d, #3066a1, #2165a4, #0064a8, #0087c5, #00aad8, #00cde0, #00eedf); */
+
+/* esses sao os comentarios do css */
+:root{
+    --fundtela:#FBFEFF;
+    --desttexto:#8278b1;
+    --linktela:#b19ad6;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    /* serve para colorir o fundo da pagina, usando o hexadecimal, e podemos usar o background image para colocar mais cores de pagina */
+    /* background-color: rgb(114, 143, 145); */
+    background-image: linear-gradient(to left bottom, rgb(101, 144, 155), rgb(6, 63, 73) );
+    background-image: url("/acincopassosdevc.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    background-color: rgb(163, 163, 192);
+}
+
+header, h1{
+    /* inserir explicação aqui */
+    text-align: end;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(49, 189, 189);
+}
+
+menu,ul{
+    /*  */
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(68, 167, 160);
+    text-align: center;
+    color: aliceblue;
+}
+
+li{
+    /*  */
+}
+
+section{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(11, 127, 156);
+}
+
+footer{
+    width: 100vw;
+    height: 15px;
+    background-color: rgb(98, 196, 163);
+}
+p{
+    font-size: larger;
+    color: #044049;
+    text-align: center;
+}
